@@ -28,25 +28,34 @@ body{
 p{
   line-height: 0.5;
 }
+
 .card{
   border-radius: 10px;
+  width: 40rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* End Upper Card Section  */
 
 /* Lower Card Section  */
 .lower-card{
   background-color: var(--mainColour);
-  padding: 0;
+  display: flex;
+  /* padding-left: 20px; */
+  justify-content:space-evenly  ;
 }
-.subscription{
+/* .subscription{
   background-color: var(--mainColour);
 
 }
 .why-us{
     background-color: var(--mainColour);
-}
+} */
 .sign-up{
   background-color: var(--secondaryColour);
   color: white;
+}
+.why-list{
+  list-style: none;
 }
 /* End Lower Card Section  */
