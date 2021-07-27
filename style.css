@@ -1,3 +1,36 @@
-*{
-  
+:root {
+  --mainColour: #239593;
+  --secondaryColour: #C0DF34;
+  --mainBackground: #E5EFF5;
+  --secondaryBackground:#98A6BD;
 }
+
+*{
+  font-family: 'Karla',
+  sans-serif;
+}
+body{
+  font-size: 16px;
+  background-color:var(--mainBackground);
+}
+/* Upper Card Section  */
+.main-title{
+  color: var(--mainColour);
+}
+.description-title{
+  color: var(--secondaryColour);
+}
+/* End Upper Card Section  */
+
+/* Lower Card Section  */
+.lower-card{
+  background-color: var(--mainColour);
+
+}
+.subscription{
+  background-color: var(--mainColour);
+}
+.why-us{
+    background-color: var(--mainColour);
+}
+/* End Lower Card Section  */
